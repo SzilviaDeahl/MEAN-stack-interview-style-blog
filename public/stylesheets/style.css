@@ -6,3 +6,13 @@ body {
 a {
   color: #00B7FF;
 }
+
+.well {
+  width:500px;
+  height: 250px;
+  background-color: lightblue;
+}
+.thumbnail {
+  width: 150px;
+  height: 150px;
+}
