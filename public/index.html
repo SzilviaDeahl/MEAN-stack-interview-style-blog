@@ -20,11 +20,11 @@
           </div> -->
           <div class="form-group">
             <label for="image">File input</label>
-            <input ng-model='image' type="file" id="image">
-            <p class="help-block">Example block-level help text here.</p>
+            <input ng-model='post.image' class="form-control" type="text" id="image">
           </div>
           <button type="submit" ng-click='submitPost()' class="btn btn-default">Submit</button>
         </form>
+        <br>
         <div ng-repeat='post in posts'>
           <div class='well'>
               <img class="thumbnail" src='{{post.image}}'>
@@ -35,8 +35,6 @@
       <script type="text/javascript" src='bower_components/angular/angular.min.js'></script>
       <script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
       <script type="text/javascript" src='bower_components/bootstrap/dist/js/bootstrap.min.js'></script>
-      <script type="text/javascript" src='app.js'>
-
-      </script>
+      <script type="text/javascript" src='app.js'></script>
 	  </body>
 	</html>
